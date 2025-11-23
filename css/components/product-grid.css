@@ -1,1 +1,74 @@
 /* Styles for the product grid */
+.card {
+ background-position:center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ border-radius: 20px;
+ position: relative;
+ color: #EDEDED;
+ font-weight: 500;
+}
+
+.left-t-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;  
+    margin-bottom: 10px;
+}
+
+.card-subt {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-group {
+    display: flex;
+    gap: 10px;
+}
+
+.left-t {
+    grid-area: left-t;
+    background-image: url(../../images/products/grid-modelo-homem.jpg);
+}
+
+.left-b {
+    grid-area: left-b;
+    background-image: url(../../images/products/grid-preto-sk8.jpg);
+}
+.right-t {
+    grid-area: right-t;
+    background-image: url(../../images/products/grid-roxo-sk8.jpg)
+}
+
+.right-b-1 {
+    grid-area: right-b-1;
+    background-image: url(../../images/products/grid-modelo.jpg)
+}
+
+.right-b-t-1 {
+    grid-area: right-b-t-1;
+    background-image: url(../../images/products/grid-moderno.jpg)
+}
+
+.right-b-t-2 {
+    grid-area: right-b-t-2;
+    background-image: url(../../images/products/grid-futurista.jpg)
+}
+
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+        "left-t left-t right-t right-t"
+        "left-t left-t right-b-1 right-b-t-1"
+        "left-b left-b right-b-1 right-b-t-2";
+    gap: 30px;
+}
