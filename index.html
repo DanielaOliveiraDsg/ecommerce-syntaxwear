@@ -115,14 +115,77 @@
     </main>
 
     <!-- Footer with contact information and links -->
-    <footer class="footer" id="contact">
-        <div class="footer__container">
-            <div class="footer__content">
-                <!-- Contact information and links -->
+    <footer class="footer" id="footer">
+        <div class="footer__content">
+            <div class="footer__left">
+                <!-- Newsletter subscription -->
+                <form class="footer__newsletter">
+                    <label for="newsletter-email">Inscreva-se em nosso <e-mail></e-mail></label>
+                    <input type="email" id="newsletter-email" placeholder="Digite seu e-mail aqui" >
+                </form>
+
+                <!-- Social media section -->
+                <div class="footer__socials">
+                    <h3 class="footer__subtitle">Redes sociais</h3>
+                    <ul class="socials-list" aria-label="Redes sociais da SyntaxWear">
+                        <li><a href="#" aria-label="Instagram"><img src="./images/icons/instagram.svg" alt=""></a></li>
+                        <li><a href="#" aria-label="WhatsApp"><img src="./images/icons/whatsapp.svg" alt=""></a></li>
+                        <li><a href="#" aria-label="TikTok"><img src="./images/icons/tiktok.svg" alt=""></a></li>
+                        <li><a href="#" aria-label="Facebook"><img src="./images/icons/facebook.svg" alt=""></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer__copyright">
-                <p>&copy; 2025 SyntaxWear. Todos os direitos reservados.</p>
-            </div>
+            <!-- Product categories navigation -->
+            <nav class="footer__nav" aria-label="Categorias de produtos">
+                <div class="footer__nav-group">
+                    <h3 class="footer__subtitle">Masculino</h3>
+                    <ul>
+                        <li><a href="#">Casual</a></li>
+                        <li><a href="#">Esporte</a></li>
+                        <li><a href="#">Moderno</a></li>
+                        <li><a href="#">Futurista</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__nav-group">
+                    <h3 class="footer__subtitle">Feminino</h3>
+                    <ul>
+                        <li><a href="#">Casual</a></li>
+                        <li><a href="#">Esporte</a></li>
+                        <li><a href="#">Moderno</a></li>
+                        <li><a href="#">Futurista</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__nav-group">
+                    <h3 class="footer__subtitle">Outlet</h3>
+                    <ul>
+                        <li><a href="#">Masculino</a></li>
+                        <li><a href="#">Feminino</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__nav-group">
+                    <h3 class="footer__subtitle">Nossas lojas</h3>
+                    <ul>
+                        <li><a href="#">Loja física</a></li>
+                        <li><a href="#">Loja online</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__nav-group">
+                    <h3 class="footer__subtitle">Sobre</h3>
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Missão</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Copyright section -->
+        <div class="footer__copyright">
+            <p>&copy; 2025 SyntaxWear. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
