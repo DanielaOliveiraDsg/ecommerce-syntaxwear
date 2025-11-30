@@ -6,9 +6,10 @@ SyntaxWear is a fictitious e-commerce platform for high-quality sports and casua
 
 ### Page
 
-<a href="https://danielaoliveiradsg.github.io/ecommerce-syntaxwear/" align="center">
+<a href="https://danielaoliveiradsg.github.io/ecommerce-syntaxwear/" >
   SyntaxWear - Sneakers E-commerce
 </a>
+<img align="center" src="./images/printscreens/prt-page.png" alt="page printscreen" />
 
 ## SECTION STRUCTURE
 
