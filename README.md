@@ -4,11 +4,11 @@
 
 SyntaxWear is a fictitious e-commerce platform for high-quality sports and casual footwear. The project presents a modern and responsive user interface, developed with semantic HTML5 and CSS3, following the best market practices.
 
-### 🎨 Visuals
+### Page
 
-<p align="center">
-  <img src="https://github.com/vdanilau/readme-syntaxwear/blob/main/readme-img.png?raw=true" alt="Ecommerce SyntaxWear" width="80%">
-</p>
+<a href="https://danielaoliveiradsg.github.io/ecommerce-syntaxwear/" align="center">
+  SyntaxWear - Sneakers E-commerce
+</a>
 
 ## SECTION STRUCTURE
 
