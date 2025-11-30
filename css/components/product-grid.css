@@ -72,3 +72,34 @@
         "left-b left-b right-b-1 right-b-t-2";
     gap: 30px;
 }
+
+/* --------- responsive ---------- */
+
+@media (max-width: 768px) {
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: 
+            "left-t left-t"
+            "left-b left-b"
+            "right-b-1 right-b-t-1"
+            "right-b-1 right-b-t-2"
+            "right-t right-t";
+        max-width: 100%;
+        gap: 0.625rem;
+    }
+
+    .left-t {
+        min-height: 500px;
+    }
+    .left-b, .right-t {
+        min-height: 190px;
+    }
+    .right-b-1 {
+        min-height: 370px;
+    }
+    .right-b-t-1, .right-b-t-2 {
+        min-height: 180px;
+    }
+    
+}

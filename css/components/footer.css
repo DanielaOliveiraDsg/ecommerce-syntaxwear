@@ -63,3 +63,27 @@
     font-size: 1.25rem;
     padding: 20px 0;
 }
+
+/* --------- responsive --------- */
+
+@media (max-width: 1000px) {
+    .footer__content {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .socials-list {
+        gap: 1rem;
+    }
+
+    .footer__copyright {
+        font-size: 1rem;
+        padding: 0 0 1.5rem ;
+    }
+}
