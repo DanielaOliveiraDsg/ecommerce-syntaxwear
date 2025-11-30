@@ -11,11 +11,9 @@
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/components/header.css">
     <link rel="stylesheet" href="./css/components/hero.css">
-    <link rel="stylesheet" href="./css/components/panel.css">
     <link rel="stylesheet" href="./css/components/product-grid.css">
     <link rel="stylesheet" href="./css/components/product-category.css">
     <link rel="stylesheet" href="./css/components/footer.css">
-    <link rel="stylesheet" href="./css/components/newsletter.css">
 </head>
 
 <body>
@@ -26,21 +24,32 @@
                 <img src="./images/logo/logo.svg" alt="SyntaxWear - Sneakers">
             </a>
         </h1>
-        <nav class="nav-center" aria-label="Categorias principais">
-            <ul>
-                <li><a href="#">Masculino</a></li>
-                <li><a href="#">Feminino</a></li>
-                <li><a href="#">Outlet</a></li>
-            </ul>
-        </nav>
-        <nav class="nav-right" aria-label="Categorias principais">
-            <ul>
-                <li><a href="#">Nossas lojas</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#"><img src="./images/icons/user.svg" alt="Minha conta"></a></li>
-                <li><a href="#"><img src="./images/icons/help.svg" alt="Ajuda"></a></li>
-                <li><a href="#"><img src="./images/icons/cart.svg" alt="Carrinho"></a></li>
-            </ul>
+
+        <!-- burger menu -->
+        <input type="checkbox" class="menu-toggle" id="menu-toggle"/>
+        <label for="menu-toggle" class="menu-icon">
+            <img src="./images/icons/burger-icon.svg" alt="burger icon">
+        </label>
+
+        <!-- menu -->
+        <nav class="nav-container">
+            <nav class="nav-center" aria-label="Categorias principais">
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Outlet</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="nav-right" aria-label="Categorias principais">
+                <ul>
+                    <li><a href="#">Nossas lojas</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#"><img src="./images/icons/user.svg" alt="Minha conta"></a></li>
+                    <li><a href="#"><img src="./images/icons/help.svg" alt="Ajuda"></a></li>
+                    <li><a href="#"><img src="./images/icons/cart.svg" alt="Carrinho"></a></li>
+                </ul>
+            </nav>
         </nav>
     </header>
 
@@ -121,7 +130,7 @@
                 <!-- Newsletter subscription -->
                 <form class="footer__newsletter">
                     <label for="newsletter-email">Inscreva-se em nosso <e-mail></e-mail></label>
-                    <input type="email" id="newsletter-email" placeholder="Digite seu e-mail aqui" >
+                    <input type="email" id="newsletter-email" placeholder="Digite seu e-mail aqui">
                 </form>
 
                 <!-- Social media section -->
